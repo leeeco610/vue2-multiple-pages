@@ -1,3 +1,3 @@
 # vue2-multiple-pages
 
-a [Sails](http://sailsjs.org) application
+A vue2 multiple pages demo.

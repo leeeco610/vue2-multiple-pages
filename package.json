@@ -30,7 +30,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/vue2-multiple-pages.git"
+    "url": "https://github.com/leeeco610/vue2-multiple-pages.git"
   },
   "author": "anonymous node/sails user",
   "license": ""

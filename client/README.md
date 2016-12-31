@@ -1,6 +1,6 @@
 # vue_cli
 
-> test
+> demo
 
 ## Build Setup
 
