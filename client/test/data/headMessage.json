@@ -1,0 +1,11 @@
+{
+	"code": 0,
+	"msg": "OK",
+	"data": {
+		"designer_id":"?",
+		"designer_name":"肯西西",
+		"header_pic":"../../../static/images/head_pic.png",
+		"orders_count":2,
+		"messages_count": 3
+	}
+}

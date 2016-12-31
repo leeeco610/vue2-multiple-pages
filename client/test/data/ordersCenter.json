@@ -1,0 +1,71 @@
+
+
+{
+	"code": 0,
+	"msg": "OK",
+	"data": {
+		"designer_id":"0110",
+		"designer_name": "肯西西",
+		"ordersCount": 7,
+		"orders":[
+			{
+				"number":"0123456789",
+				"time": "2016-10-28 11:29",
+				"status":1,
+				"status_name": "约谈中",
+				"project_info":"深圳,花样年华乡,59㎡,两房一厅",
+				"owner_info":"女,美食,摄影,简约,欧式"
+			},
+			{
+				"number":"0123456723",
+				"time": "2016-10-28 11:29",
+				"status":2,
+				"status_name": "平面图",
+				"project_info":"深圳,花样年华乡,59㎡,两房一厅",
+				"owner_info":"女,美食,摄影,简约,欧式"
+			},
+			{
+				"number":"0125657723",
+				"time": "2016-10-28 11:29",
+				"status":3,
+				"status_name": "施工图",
+				"project_info":"深圳,花样年华乡,59㎡,两房一厅",
+				"owner_info":"女,美食,摄影,简约,欧式"
+			},
+			{
+				"number":"6757898989",
+				"time": "2016-10-28 11:29",
+				"status":1,
+				"status_name": "约谈中",
+				"project_info":"深圳,花样年华乡,59㎡,两房一厅",
+				"owner_info":"女,美食,摄影,简约,欧式"
+			},
+			{
+				"number":"56576809884",
+				"time": "2016-10-28 11:29",
+				"status":1,
+				"status_name": "约谈中",
+				"project_info":"深圳,花样年华乡,59㎡,两房一厅",
+				"owner_info":"女,美食,摄影,简约,欧式"
+			},
+			{
+				"number":"5654768789",
+				"time": "2016-10-28 11:29",
+				"status":4,
+				"status_name": "已完成",
+				"project_info":"深圳,花样年华乡,59㎡,两房一厅",
+				"owner_info":"女,美食,摄影,简约,欧式"
+			},
+			{
+				"number":"5654768789",
+				"time": "2016-10-28 11:29",
+				"status":5,
+				"status_name": "已取消",
+				"project_info":"深圳,花样年华乡,59㎡,两房一厅",
+				"owner_info":"女,美食,摄影,简约,欧式"
+			}
+
+
+		]
+	}
+}

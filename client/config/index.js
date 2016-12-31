@@ -1,0 +1,42 @@
+// see http://vuejs-templates.github.io/webpack for documentation.
+var path = require('path')
+var packageConfig = require('../package.json')
+//判断当前打包环境
+function getENV() {
+    return (process.argv[2] && process.argv[2].toLowerCase()) || 'test';
+}
+
+module.exports = {
+  build: {
+    qiniu_param1: 'E:\/repositories\/upload_master\/upload.php', //要执行的PHP脚本位置
+    qiniu_param2: packageConfig.name+'/static/', //资源上传到七牛上后添加的前缀
+    qiniu_param3:'E:\/repositories\/pc_master\/client\/dist\/static', //需要上传到七牛的文件目录
+
+    env: require('./prod.env'),
+    index: path.resolve(__dirname, '../dist/index.html'),
+    assetsRoot: path.resolve(__dirname, '../dist'),
+    assetsSubDirectory: 'static',
+    assetsPublicPath: 'http://autost.jcy.cc/'+packageConfig.name+'/'+getENV(),
+    productionSourceMap: true,
+    // Gzip off by default as many popular static hosts such as
+    // Surge or Netlify already gzip all static assets for you.
+    // Before setting to `true`, make sure to:
+    // npm install --save-dev compression-webpack-plugin
+    productionGzip: false,
+    productionGzipExtensions: ['js', 'css'],
+    port:9080
+  },
+  dev: {
+    env: require('./dev.env'),
+    port: 80,
+    assetsSubDirectory: 'static',
+    assetsPublicPath: '/',
+    proxyTable: {},
+    // CSS Sourcemaps off by default because relative paths are "buggy"
+    // with this option, according to the CSS-Loader README
+    // (https://github.com/webpack/css-loader#sourcemaps)
+    // In our experience, they generally work as expected,
+    // just be aware of this issue when enabling this option.
+    cssSourceMap: false
+  }
+}
