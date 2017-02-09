@@ -1,3 +1,19 @@
-# vue2-multiple-pages
+# vue_multi_page
 
-A vue2 multiple pages demo.
+>vue multi page test
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+#productiong start
+npm start
+```
